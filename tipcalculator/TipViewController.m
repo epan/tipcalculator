@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (strong, nonatomic) IBOutlet UITextField *numberOfPeople;
+@property (weak, nonatomic) IBOutlet UILabel *totalTipLabel;
 
 - (IBAction)onTap:(id)sender;
 - (void)updateValues;
@@ -27,7 +28,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"Tip Calculator";
+        self.title = @"Tip Drill";
     }
     return self;
 }
