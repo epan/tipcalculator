@@ -21,6 +21,7 @@
 		E564BE3D19370E95000A0942 /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E564BE3C19370E95000A0942 /* tipcalculatorTests.m */; };
 		E564BE4919370F8E000A0942 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E564BE4719370F8E000A0942 /* TipViewController.m */; };
 		E564BE4A19370F8E000A0942 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564BE4819370F8E000A0942 /* TipViewController.xib */; };
+		E5DB625B193AA09900FFFD58 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DB625A193AA09900FFFD58 /* BackgroundLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E564BE4619370F8E000A0942 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
 		E564BE4719370F8E000A0942 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		E564BE4819370F8E000A0942 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		E5DB6259193AA09900FFFD58 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
+		E5DB625A193AA09900FFFD58 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				E564BE4619370F8E000A0942 /* TipViewController.h */,
 				E564BE4719370F8E000A0942 /* TipViewController.m */,
 				E564BE4819370F8E000A0942 /* TipViewController.xib */,
+				E5DB6259193AA09900FFFD58 /* BackgroundLayer.h */,
+				E5DB625A193AA09900FFFD58 /* BackgroundLayer.m */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E564BE2419370E95000A0942 /* main.m in Sources */,
+				E5DB625B193AA09900FFFD58 /* BackgroundLayer.m in Sources */,
 				E564BE4919370F8E000A0942 /* TipViewController.m in Sources */,
 				E564BE2819370E95000A0942 /* EXEAppDelegate.m in Sources */,
 			);
@@ -450,6 +456,7 @@
 				E564BE4219370E95000A0942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E564BE4319370E95000A0942 /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +465,7 @@
 				E564BE4519370E95000A0942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

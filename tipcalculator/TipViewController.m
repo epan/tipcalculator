@@ -7,6 +7,7 @@
 //
 
 #import "TipViewController.h"
+#import "BackgroundLayer.h"
 
 @interface TipViewController ()
 
@@ -29,6 +30,10 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = @"Tip Drill";
+        
+        CAGradientLayer *bgLayer = [BackgroundLayer blueGradient];
+        bgLayer.frame = self.view.bounds;
+        [self.view.layer insertSublayer:bgLayer atIndex:0];
     }
     return self;
 }
