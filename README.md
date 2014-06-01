@@ -23,3 +23,5 @@ Initial application task for [CodePath iOS Bootcamp for Designers](http://www.pe
 1. Exclude tax or include tax in the bill amount?
 2. Cash vs credit card split mode? (Cash just needs total tip + amount per person, credit card needs separated individual tip + amount per person to write in.)
 3. Integrate with P2P payment service?
+4. Persistent keyboard for numbers?
+5. Calculate on each input after a slight delay?
