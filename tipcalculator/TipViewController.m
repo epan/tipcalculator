@@ -59,7 +59,7 @@
     float billAmount = [self.billTextField.text floatValue];
     float partySize = [self.numberOfPeople.text floatValue];
     
-    NSArray *tipValues = @[@(0.1), @(0.15), @(0.2)];
+    NSArray *tipValues = @[@(0.15), @(0.18), @(0.2)];
     float tipAmount = billAmount * [tipValues[self.tipControl.selectedSegmentIndex] floatValue];
     float totalAmount = (tipAmount + billAmount) / partySize;
     
