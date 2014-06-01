@@ -63,8 +63,16 @@
     float tipAmount = billAmount * [tipValues[self.tipControl.selectedSegmentIndex] floatValue];
     float totalAmount = (tipAmount + billAmount) / partySize;
     
-    self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount];
-    self.totalLabel.text = [NSString stringWithFormat:@"$%0.2f", totalAmount];
+    // Takes floats and converts them to currency format with commas and currency symbols
+    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+    [numberFormatter setNumberStyle: NSNumberFormatterCurrencyStyle];
+    NSString *totalAmountFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:totalAmount]];
+    NSString *tipAmountFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:tipAmount]];
+    
+    self.tipLabel.text = [NSString stringWithFormat:@"%@", tipAmountFormatted];
+    self.totalLabel.text = [NSString stringWithFormat:@"%@", totalAmountFormatted];
 }
+
+
 
 @end
