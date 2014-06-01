@@ -15,7 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *tipControl;
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
-@property (strong, nonatomic) IBOutlet UITextField *numberOfPeople;
+@property (weak, nonatomic) IBOutlet UITextField *numberOfPeople;
 @property (weak, nonatomic) IBOutlet UILabel *totalTipLabel;
 
 - (IBAction)onTap:(id)sender;
@@ -29,7 +29,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"Tip Drill";
+        self.title = @"Tip Calculon";
         
         CAGradientLayer *bgLayer = [BackgroundLayer blueGradient];
         bgLayer.frame = self.view.bounds;
