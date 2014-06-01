@@ -67,8 +67,9 @@
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
     [numberFormatter setNumberStyle: NSNumberFormatterCurrencyStyle];
     NSString *totalAmountFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:totalAmount]];
+    NSString *tipAmountFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:tipAmount]];
     
-    self.tipLabel.text = [NSString stringWithFormat:@"$%0.2f", tipAmount];
+    self.tipLabel.text = [NSString stringWithFormat:@"%@", tipAmountFormatted];
     self.totalLabel.text = [NSString stringWithFormat:@"%@", totalAmountFormatted];
 }
 
