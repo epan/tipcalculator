@@ -12,6 +12,7 @@ Initial application task for [CodePath iOS Bootcamp for Designers](http://www.pe
 3. Input number of people in the party, default of 2 since < 2 would not need a calculater.
 4. Clears inputs (bill and party) on focus.
 5. Currency formatting in outputs.
+6. Shows tip amount per person to support writing in credit card field use case.
 
 ## To do list
 1. ~~[Make and add an app icon](http://guides.codepath.com/ios/Adding-Image-Assets).~~
