@@ -26,3 +26,4 @@ Initial application task for [CodePath iOS Bootcamp for Designers](http://www.pe
 3. Integrate with P2P payment service?
 4. Persistent keyboard for numbers?
 5. Calculate on each input after a slight delay?
+6. Add animations and transitions
