@@ -25,6 +25,7 @@ Initial application task for [CodePath iOS Bootcamp for Designers](http://www.pe
 6. Remove rotation on app.
 7. Prevent all NaN and infinity cases.
 8. Replace floats with NSDecimalNumers for precision.
+9. Refactor currency formatting code.
 
 ## Ideas
 1. Exclude tax or include tax in the bill amount?
