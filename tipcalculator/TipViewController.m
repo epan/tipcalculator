@@ -46,6 +46,8 @@
 {
     [super viewDidLoad];
     [self updateValues];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

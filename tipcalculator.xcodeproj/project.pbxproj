@@ -21,6 +21,7 @@
 		E564BE3D19370E95000A0942 /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E564BE3C19370E95000A0942 /* tipcalculatorTests.m */; };
 		E564BE4919370F8E000A0942 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E564BE4719370F8E000A0942 /* TipViewController.m */; };
 		E564BE4A19370F8E000A0942 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E564BE4819370F8E000A0942 /* TipViewController.xib */; };
+		E5A46756193C26CC00D631FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A46755193C26CC00D631FB /* Main.storyboard */; };
 		E5DB625B193AA09900FFFD58 /* BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5DB625A193AA09900FFFD58 /* BackgroundLayer.m */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		E564BE4619370F8E000A0942 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
 		E564BE4719370F8E000A0942 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
 		E564BE4819370F8E000A0942 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
+		E5A46755193C26CC00D631FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E5DB6259193AA09900FFFD58 /* BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundLayer.h; sourceTree = "<group>"; };
 		E5DB625A193AA09900FFFD58 /* BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 		E564BE0B19370E94000A0942 = {
 			isa = PBXGroup;
 			children = (
+				E5A46755193C26CC00D631FB /* Main.storyboard */,
 				E564BE1D19370E95000A0942 /* tipcalculator */,
 				E564BE3619370E95000A0942 /* tipcalculatorTests */,
 				E564BE1619370E95000A0942 /* Frameworks */,
@@ -236,6 +239,7 @@
 				E564BE4A19370F8E000A0942 /* TipViewController.xib in Resources */,
 				E564BE2219370E95000A0942 /* InfoPlist.strings in Resources */,
 				E564BE2A19370E95000A0942 /* Images.xcassets in Resources */,
+				E5A46756193C26CC00D631FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
