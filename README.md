@@ -11,7 +11,7 @@ Initial application task for [CodePath iOS Bootcamp for Designers](http://www.pe
 5. Currency formatting in outputs.
 
 ## To do list
-1. Add an app icon.
+1. [Make and add an app icon](http://guides.codepath.com/ios/Adding-Image-Assets).
 2. Show a Done button instead of making people tap the canvas.
 2. Show how much tip and base each person should add.
 2. Use currency-based input for bill amount. [Example](http://www.peterboni.net/blog/2013/07/04/ios-formatted-currency-input/)
