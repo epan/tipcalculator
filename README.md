@@ -3,6 +3,9 @@ tipcalculator
 
 Initial application task for [CodePath iOS Bootcamp for Designers](http://www.peterboni.net/blog/2013/07/04/ios-formatted-currency-input/) 
 
+## Screenshots
+![Screenshot of tip calculator with calculations](http://cl.ly/image/372D3s1v0b3I/iOS%20Simulator%20-%20iPhone%20Retina%20(3.5-inch)%20%3A%20iOS%207.1%20(11D167).png "With tip calculations")
+
 ## Features
 1. Input a bill amount including tax.
 2. Choose a tip amount on bill amount of 15%, 18%, or 20%.
