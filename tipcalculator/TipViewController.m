@@ -17,6 +17,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *totalLabel;
 @property (weak, nonatomic) IBOutlet UITextField *numberOfPeople;
 @property (weak, nonatomic) IBOutlet UILabel *totalTipLabel;
+@property (weak, nonatomic) IBOutlet UILabel *billPerPerson;
+@property (weak, nonatomic) IBOutlet UILabel *tipPerPerson;
+@property (weak, nonatomic) IBOutlet UILabel *billResultLabel;
+@property (weak, nonatomic) IBOutlet UILabel *grandTotalLabel;
 
 - (IBAction)onTap:(id)sender;
 - (void)updateValues;
@@ -67,10 +71,20 @@
     NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
     [numberFormatter setNumberStyle: NSNumberFormatterCurrencyStyle];
     NSString *totalAmountFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:totalAmount]];
+    NSString *totalPaxFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:billAmount/partySize]];
     NSString *tipAmountFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:tipAmount]];
+    NSString *tipPaxFormatted = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:tipAmount/partySize]];
+    NSString *totalBill = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:billAmount]];
+    NSString *grandTotalAmount = [numberFormatter stringFromNumber:[NSNumber numberWithFloat:totalAmount * partySize]];
     
+    // Update the labels with results
     self.tipLabel.text = [NSString stringWithFormat:@"%@", tipAmountFormatted];
     self.totalLabel.text = [NSString stringWithFormat:@"%@", totalAmountFormatted];
+    self.billPerPerson.text = [NSString stringWithFormat:@"%@", totalPaxFormatted];
+    self.tipPerPerson.text = [NSString stringWithFormat:@"%@", tipPaxFormatted];
+    self.billResultLabel.text = [NSString stringWithFormat:@"%@", totalBill];
+    self.grandTotalLabel.text = [NSString stringWithFormat:@"%@", grandTotalAmount];
+    
 }
 
 
