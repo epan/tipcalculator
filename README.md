@@ -22,6 +22,7 @@ Initial application task for [CodePath iOS Bootcamp for Designers](http://www.pe
 3. Remove decimal from party input keyboard.
 4. If bill amount is < 10.00 then show $1, $2, $3 for tip amounts instead of percentages.
 5. Prevent bill amounts like 100.43.34
+6. Remove rotation on app.
 
 ## Ideas
 1. Exclude tax or include tax in the bill amount?
